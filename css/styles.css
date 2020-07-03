@@ -74,11 +74,11 @@ label:before, label:after {
   right: 10px
 }
 
-/*label:before {
-    content:'\f1db'
+label:before {
+  content: '\f1db'
 }
 
-label:after {
+/*label:after {
     content:'\f111';
     width:25px;
     overflow:hidden;
