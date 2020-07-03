@@ -64,11 +64,11 @@ label {
   margin-left: 59px;
 }
 
-/*label:before,label:after {
-    font-family:FontAwesome;
-    font-size:50px;
-/*absolutely positioned*/
-/*  position:absolute;
+label:before, label:after {
+  font-family: FontAwesome;
+  font-size: 50px;
+  /*absolutely positioned*/
+  /*  position:absolute;
     top:0px;
     left:-59px;
     right:10px
@@ -128,12 +128,12 @@ label:after {
 
 
 /* Hide the Ordinary Checkbox */
-/*input[type="checkbox"] {
+  /*input[type="checkbox"] {
     display:none
 }
 
 /* Animating the Checkbox Icon */
-/*input[type="checkbox"]:checked + label:after {
+  /*input[type="checkbox"]:checked + label:after {
     -webkit-animation:bounce .4s;
     -webkit-animation-iteration-count:1
 
@@ -146,7 +146,7 @@ label:after {
 }
 
 /* @Keyframes for Chrome and Safari */
-/*@-webkit-keyframes bounce {
+  /*@-webkit-keyframes bounce {
     0%  { -webkit-transform:scale(.8); opacity:.8}
     25% { -webkit-transform:scale(.25); opacity:.25}
     50% { -webkit-transform:scale(1.4); opacity:1.4}
