@@ -54,17 +54,17 @@ ul li {
 }
 
 /* Checkbox Icons */
-/*label {
-    position:relative;
-    padding-left:30px;
-    font-size:30px;
-    cursor:pointer;
-    color:#fff;
-    padding:17px 28px 20px 10px;
-      margin-left: 59px;
+label {
+  position: relative;
+  padding-left: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  padding: 17px 28px 20px 10px;
+  margin-left: 59px;
 }
 
-label:before,label:after {
+/*label:before,label:after {
     font-family:FontAwesome;
     font-size:50px;
 /*absolutely positioned*/
