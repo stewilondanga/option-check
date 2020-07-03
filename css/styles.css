@@ -19,11 +19,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-.checks-container{
+/*.checks-container{
   max-width: 500px;
   margin: 0px auto;
   display: block;
