@@ -209,16 +209,29 @@ input[type="checkbox"]:checked+label:after {
   }
 }
 
-/*@keyframes bounceout {
-    0%  { transform:scale(0)}
-    25% { transform:scale(.8)}
-    50% { transform:scale(1.4)}
-    75% { transform:scale(.25)}
-    100%{ transform:scale(0)}
+@keyframes bounceout {
+  0% {
+    transform: scale(0)
+  }
+
+  25% {
+    transform: scale(.8)
+  }
+
+  50% {
+    transform: scale(1.4)
+  }
+
+  75% {
+    transform: scale(.25)
+  }
+
+  100% {
+    transform: scale(0)
+  }
 }
 
-
-@media screen and (max-width: 480px){
+/*@media screen and (max-width: 480px){
  nav a{
     margin: 10px 0;
     padding: 10px;
