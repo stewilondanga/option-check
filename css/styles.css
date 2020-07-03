@@ -36,21 +36,12 @@ body {
   text-shadow: none
 }
 
-/*::selection {
-    background:#b3d4fc;
-    text-shadow:none
+::selection {
+  background: #b3d4fc;
+  text-shadow: none
 }
 
-
-
-
-
-
-
-
-
-
-h2 {
+/*h2 {
     font-size:35px;
     text-align:left;
       padding-left: 20px;
