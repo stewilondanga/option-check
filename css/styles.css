@@ -119,8 +119,8 @@ label:after {
 }
 
 /* Hide the Ordinary Checkbox */
-/*input[type="checkbox"] {
-    display:none
+input[type="checkbox"] {
+  display: none
 }
 
 /* Animating the Checkbox Icon */
