@@ -231,17 +231,18 @@ input[type="checkbox"]:checked+label:after {
   }
 }
 
-/*@media screen and (max-width: 480px){
- nav a{
+@media screen and (max-width: 480px) {
+  nav a {
     margin: 10px 0;
     padding: 10px;
- }
- div.wrapper[style] {
-  width: 60% !important;
-}
+  }
+
+  div.wrapper[style] {
+    width: 60% !important;
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
