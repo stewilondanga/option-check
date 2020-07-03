@@ -97,31 +97,26 @@ label:after {
   animation-fill-mode: forwards;
 }
 
-/*@-moz-document url-prefix() {
-   label:after {
-    content:'\f111';
-    width:25px;
-    overflow:hidden;
-    font-size:27px;
-    top:17px !important;
-    left:-49px;
-    color:#6CFF4C;
-    -webkit-animation:bounceout .4s;
-    -webkit-animation-iteration-count:1;
-    -webkit-animation-fill-mode:forwards;
-
-    -moz-animation:bounceout .4s;
-    -moz-animation-iteration-count:1;
-    -moz-animation-fill-mode:forwards;
-
-    animation:bounceout .4s;
-    animation-iteration-count:1;
-    animation-fill-mode:forwards;
-
+@-moz-document url-prefix() {
+  label:after {
+    content: '\f111';
+    width: 25px;
+    overflow: hidden;
+    font-size: 27px;
+    top: 17px !important;
+    left: -49px;
+    color: #6CFF4C;
+    -webkit-animation: bounceout .4s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: bounceout .4s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-fill-mode: forwards;
+    animation: bounceout .4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
 }
-}
-
-
 
 /* Hide the Ordinary Checkbox */
 /*input[type="checkbox"] {
