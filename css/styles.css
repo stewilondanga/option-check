@@ -23,7 +23,7 @@ body {
   height: 1.5em;
 }
 
-/*.checks-container{
+.checks-container {
   max-width: 500px;
   margin: 0px auto;
   display: block;
@@ -31,8 +31,7 @@ body {
   padding: 20px;
 }
 
-
-::-moz-selection {
+/*::-moz-selection {
     background:#b3d4fc;
     text-shadow:none
 }
