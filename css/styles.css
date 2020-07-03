@@ -1,4 +1,8 @@
-body {
+html, button, input, select, textarea {
+  color: #222
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +23,188 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+.checks-container{
+  max-width: 500px;
+  margin: 0px auto;
+  display: block;
+  background: #111;
+  padding: 20px;
+}
+
+
+::-moz-selection {
+    background:#b3d4fc;
+    text-shadow:none
+}
+
+::selection {
+    background:#b3d4fc;
+    text-shadow:none
+}
+
+
+
+
+
+
+
+body {
+    font:16px/1.5 'Lato', Arial, sans-serif;
+    background:#2ecc71;
+    color:#fff
+}
+
+
+
+h2 {
+    font-size:35px;
+    text-align:left;
+      padding-left: 20px;
+}
+
+
+ul li {
+    list-style:none;
+    margin:10px auto;
+    font-family:'Lato'
+}
+
+/* Checkbox Icons */
+/*label {
+    position:relative;
+    padding-left:30px;
+    font-size:30px;
+    cursor:pointer;
+    color:#fff;
+    padding:17px 28px 20px 10px;
+      margin-left: 59px;
+}
+
+label:before,label:after {
+    font-family:FontAwesome;
+    font-size:50px;
+/*absolutely positioned*/
+/*  position:absolute;
+    top:0px;
+    left:-59px;
+    right:10px
+}
+
+label:before {
+    content:'\f1db'
+}
+
+label:after {
+    content:'\f111';
+    width:25px;
+    overflow:hidden;
+    font-size:27px;
+    top:18px;
+    left:-49px;
+    color:#6CFF4C;
+    -webkit-animation:bounceout .4s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode:forwards;
+
+    -moz-animation:bounceout .4s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-fill-mode:forwards;
+
+    animation:bounceout .4s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+
+}
+
+
+@-moz-document url-prefix() {
+   label:after {
+    content:'\f111';
+    width:25px;
+    overflow:hidden;
+    font-size:27px;
+    top:17px !important;
+    left:-49px;
+    color:#6CFF4C;
+    -webkit-animation:bounceout .4s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode:forwards;
+
+    -moz-animation:bounceout .4s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-fill-mode:forwards;
+
+    animation:bounceout .4s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+
+}
+}
+
+
+
+/* Hide the Ordinary Checkbox */
+/*input[type="checkbox"] {
+    display:none
+}
+
+/* Animating the Checkbox Icon */
+/*input[type="checkbox"]:checked + label:after {
+    -webkit-animation:bounce .4s;
+    -webkit-animation-iteration-count:1
+
+    -moz-animation:bounce .4s;
+    -moz-animation-iteration-count:1;
+
+    animation:bounce .4s;
+    animation-iteration-count:1
+
+}
+
+/* @Keyframes for Chrome and Safari */
+/*@-webkit-keyframes bounce {
+    0%  { -webkit-transform:scale(.8); opacity:.8}
+    25% { -webkit-transform:scale(.25); opacity:.25}
+    50% { -webkit-transform:scale(1.4); opacity:1.4}
+    75% { -webkit-transform:scale(.8); opacity:.8}
+    100%{ -webkit-transform:scale(1); opacity:1}
+}
+@keyframes bounce {
+    0%  { transform:scale(.8); opacity:.8}
+    25% { transform:scale(.25); opacity:.25}
+    50% { transform:scale(1.4); opacity:1.4}
+    75% { transform:scale(.8); opacity:.8}
+    100%{ transform:scale(1); opacity:1}
+}
+
+
+
+@-webkit-keyframes bounceout {
+    0%  { -webkit-transform:scale(0)}
+    25% { -webkit-transform:scale(.8)}
+    50% { -webkit-transform:scale(1.4)}
+    75% { -webkit-transform:scale(.25)}
+    100%{ -webkit-transform:scale(0)}
+}
+@keyframes bounceout {
+    0%  { transform:scale(0)}
+    25% { transform:scale(.8)}
+    50% { transform:scale(1.4)}
+    75% { transform:scale(.25)}
+    100%{ transform:scale(0)}
+}
+
+
+@media screen and (max-width: 480px){
+ nav a{
+    margin: 10px 0;
+    padding: 10px;
+ }
+ div.wrapper[style] {
+  width: 60% !important;
+}
 }
 
 .containers {
