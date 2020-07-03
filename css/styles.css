@@ -187,16 +187,29 @@ input[type="checkbox"]:checked+label:after {
   }
 }
 
-/*
-
 @-webkit-keyframes bounceout {
-    0%  { -webkit-transform:scale(0)}
-    25% { -webkit-transform:scale(.8)}
-    50% { -webkit-transform:scale(1.4)}
-    75% { -webkit-transform:scale(.25)}
-    100%{ -webkit-transform:scale(0)}
+  0% {
+    -webkit-transform: scale(0)
+  }
+
+  25% {
+    -webkit-transform: scale(.8)
+  }
+
+  50% {
+    -webkit-transform: scale(1.4)
+  }
+
+  75% {
+    -webkit-transform: scale(.25)
+  }
+
+  100% {
+    -webkit-transform: scale(0)
+  }
 }
-@keyframes bounceout {
+
+/*@keyframes bounceout {
     0%  { transform:scale(0)}
     25% { transform:scale(.8)}
     50% { transform:scale(1.4)}
