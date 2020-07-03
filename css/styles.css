@@ -2,6 +2,12 @@ html, button, input, select, textarea {
   color: #222
 }
 
+body {
+  font: 16px/1.5 'Lato', Arial, sans-serif;
+  background: #2ecc71;
+  color: #fff
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -50,11 +56,6 @@ html, button, input, select, textarea {
 
 
 
-body {
-    font:16px/1.5 'Lato', Arial, sans-serif;
-    background:#2ecc71;
-    color:#fff
-}
 
 
 
